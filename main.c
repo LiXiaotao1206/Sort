@@ -23,6 +23,7 @@ void main()
 	//bubbleSort(arr,10);
 	//selectSort(arr,10);
 	directInsertSort(arr,10);
+
 	printf("\n after: ");
 	printArr(arr,10);
 }

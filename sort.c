@@ -1,5 +1,7 @@
 
-
+/*
+ * 快速排序
+ */
 void quickSort(int a[], const unsigned int len){
 	unsigned int i,j;
 	int base;
@@ -36,6 +38,9 @@ void quickSort(int a[], const unsigned int len){
 	}
 }
 
+/*
+ * 冒泡排序
+ */
 void bubbleSort(int a[], const unsigned int len){
 	unsigned int i,j;
 	int tmp;
@@ -53,6 +58,9 @@ void bubbleSort(int a[], const unsigned int len){
 	}
 }
 
+/*
+ * 选择排序
+ */
 void selectSort(int a[], const unsigned int len){
 	unsigned int i,j,index;
 	int tmp;
@@ -72,6 +80,9 @@ void selectSort(int a[], const unsigned int len){
 	}
 }
 
+/*
+ * 直接插入排序
+ */
 void directInsertSort(int a[], const unsigned int len){
 
 	unsigned int i,j,index;
